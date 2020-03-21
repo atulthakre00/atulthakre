@@ -229,3 +229,8 @@ footer p{
 #modalBodyP , #modalImg{
   margin:1% 2%;
 }
+
+#modalImg{
+  width:80%;
+  height:60%;
+}
