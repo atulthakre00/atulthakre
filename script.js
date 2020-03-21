@@ -29,19 +29,19 @@ var mo , span;
 window.onload = function(){  
   //ACADEMICS
   var t;
-  t = "";
+  t = "Received Merit Certificate from School Bharti Krishna Vidya Vihar for Meritorious performance in class 10. The Borad Exams of CBSE class 10 were conducted on March 2016";
   moduleContent['id'].push("class10");
   moduleContent['title'].push("Class 10 Performance");
   moduleContent['imageLocn'].push("docs/c10.jpg");
   moduleContent['content'].push(t);
 
-  t = "";
+  t = "Received Merit Certificate from Dr.Ambedkar Science College for Meritorious performance in class 12th. The Borad Exams of Maharashtra State Board class 12 were conducted on March 2018";
   moduleContent['id'].push("class12");
   moduleContent['title'].push("Class 12 Performance");
   moduleContent['imageLocn'].push("docs/m12.png");
   moduleContent['content'].push(t);
 
-  t = "";
+  t = "Presently Persuing BE 4 Year Degree from Shri Ramdeobaba College Of Engineering And Management Nagpur. My graduation date will be June 2022. Presently I am studying in 4th Semester with CGPA of 9.97 which is average grade point of 3 semesters";
   moduleContent['id'].push("classBE");
   moduleContent['title'].push("BE Degree Performance");
   moduleContent['imageLocn'].push("docs/beMarksheet.png");
@@ -49,19 +49,19 @@ window.onload = function(){
   
   
   //CERTIFICATIONS
-  t = "";
+  t = "Received 89% score with position in top 5% percentile in All India Exam on Data Structures And Algorithms In Python Conducted By IIT Madras. The exam was conducted on 29th September 2019 spanning a duration of 3 hrs. Separate Programming Exam was also Conducted.";
   moduleContent['id'].push("dsaaipNPTEL");
   moduleContent['title'].push("Data Structures And Algorithms in Python");
   moduleContent['imageLocn'].push("docs/2.jpg");
   moduleContent['content'].push(t);
 
-  t = "";
+  t = "Pursuing Programming in C++ course provided by IIT Kharagpur";
   moduleContent['id'].push("picppNPTEL");
   moduleContent['title'].push("Programming In C++");
   moduleContent['imageLocn'].push("docs/2.jpg");
   moduleContent['content'].push(t);
 
-  t = "";
+  t = "Successfully Completed Machine Learning Using Python course By IBM on Coursera spanning for about 6 weeks. Regular Quizzes and Programming Machine Learning Assignments were part of it. Final project for creating Best Classifier for data was part of Exam.";
   moduleContent['id'].push("mlbiCoursera");
   moduleContent['title'].push("Machine Learning By IBM");
   moduleContent['imageLocn'].push("docs/courseraML.png");
@@ -69,13 +69,13 @@ window.onload = function(){
 
 
   //PROJECTS
-  t = "";
+  t = "It is application of Circular Queue to create Traffic Signal Simulation. It was built using the knowledge of Data Structures and Algorithms particularly Circular Queue, Python tkinter, photoshop graphics. It was a well built GUI which consisted of 4 signals with usual red , green , yellow signals. The internal working was using insertion , deletion operations on circular queue.";
   moduleContent['id'].push("qimp");
   moduleContent['title'].push("Queue Implementation");
   moduleContent['imageLocn'].push("docs/c10.jpg");
   moduleContent['content'].push(t);
 
-  t = "";
+  t = "Given Regular Expression as input the program converts it into NFA (Non Deterministic Finite Automata) with Epsilon , NFA without Epsilon and DFA (Deterministic Finite Automata). It is a Web App created using HTML, CSS and Javascript. Knowledge of data structures and algorithms was used for internal implementation. Graphs and Graph Traversal Algorithm BFS (Bread First Search) are used";
   moduleContent['id'].push("regFAC");
   moduleContent['title'].push("Regex To Finite Automata Converter");
   moduleContent['imageLocn'].push("docs/c10.jpg");
@@ -131,8 +131,8 @@ window.onload = function(){
   modalBody.setAttribute("class","modal-body");
   bodyImg = document.createElement("img");
   bodyImg.setAttribute("id","modalImg");
-  bodyImg.setAttribute("width","250px");
-  bodyImg.setAttribute("height","250px");
+  bodyImg.setAttribute("width","350px");
+  bodyImg.setAttribute("height","200px");
   var para = document.createElement("p");
   para.setAttribute("id","modalBodyP");
   modalBody.appendChild(bodyImg);
