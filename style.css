@@ -159,27 +159,12 @@ footer p{
   .aboutMeCont p , .text , footer p{font-size:1.4vw;}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 7%; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -194,11 +179,9 @@ footer p{
   position: relative;
   background-color: rgba(0,0,0,1);
   margin: auto;
-  padding: 0;
-  height:100px;
+  height:75%;
   border: 1px solid #888;
   width: 60%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
@@ -220,12 +203,11 @@ footer p{
 .close {
   color: white;
   float: right;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover,.close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -237,4 +219,13 @@ footer p{
   color: white;
 }
 
-.modal-body {border:2px solid red;overflow: auto;clear:both;color:white;}
+.modal-body {
+  height:85%;
+  overflow-y: auto;
+  clear:both;
+  color:white;
+}
+
+#modalBodyP , #modalImg{
+  margin:1% 2%;
+}
