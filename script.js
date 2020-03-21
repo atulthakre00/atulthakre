@@ -28,58 +28,78 @@ var mo , span;
 
 window.onload = function(){  
   //ACADEMICS
-  var t = "CONTENT CONTENT content CONTENT CONTENT ONTENT CONTENT content CONTENT CONTENTONTENT CONT";
-  t = t + t + t + t + t + t + t + t + t+ t + t + t + t;
+  var t;
+  t = "";
   moduleContent['id'].push("class10");
   moduleContent['title'].push("Class 10 Performance");
   moduleContent['imageLocn'].push("docs/c10.jpg");
   moduleContent['content'].push(t);
 
+  t = "";
   moduleContent['id'].push("class12");
   moduleContent['title'].push("Class 12 Performance");
   moduleContent['imageLocn'].push("docs/m12.png");
+  moduleContent['content'].push(t);
 
+  t = "";
   moduleContent['id'].push("classBE");
   moduleContent['title'].push("BE Degree Performance");
   moduleContent['imageLocn'].push("docs/beMarksheet.png");
+  moduleContent['content'].push(t);
   
   
   //CERTIFICATIONS
+  t = "";
   moduleContent['id'].push("dsaaipNPTEL");
   moduleContent['title'].push("Data Structures And Algorithms in Python");
   moduleContent['imageLocn'].push("docs/2.jpg");
+  moduleContent['content'].push(t);
 
+  t = "";
   moduleContent['id'].push("picppNPTEL");
   moduleContent['title'].push("Programming In C++");
   moduleContent['imageLocn'].push("docs/2.jpg");
+  moduleContent['content'].push(t);
 
+  t = "";
   moduleContent['id'].push("mlbiCoursera");
   moduleContent['title'].push("Machine Learning By IBM");
   moduleContent['imageLocn'].push("docs/courseraML.png");
+  moduleContent['content'].push(t);
 
 
   //PROJECTS
+  t = "";
   moduleContent['id'].push("qimp");
   moduleContent['title'].push("Queue Implementation");
   moduleContent['imageLocn'].push("docs/c10.jpg");
+  moduleContent['content'].push(t);
 
+  t = "";
   moduleContent['id'].push("regFAC");
   moduleContent['title'].push("Regex To Finite Automata Converter");
   moduleContent['imageLocn'].push("docs/c10.jpg");
+  moduleContent['content'].push(t);
 
 
   //CODING PLATFORMS
+  t = "";
   moduleContent['id'].push("cfR");
   moduleContent['title'].push("CodeForces Rating");
   moduleContent['imageLocn'].push("docs/c10.jpg");
+  moduleContent['content'].push(t);
 
+  t = "";
   moduleContent['id'].push("ccR");
   moduleContent['title'].push("Codechef Rating");
   moduleContent['imageLocn'].push("docs/codechefRanking.png");
+  moduleContent['content'].push(t);
 
+  t = "";
   moduleContent['id'].push("hrR");
   moduleContent['title'].push("HackerRank Rating");
   moduleContent['imageLocn'].push("docs/hackerRank.png");
+  moduleContent['content'].push(t);
   
   console.log(moduleContent);
 
