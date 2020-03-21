@@ -102,6 +102,7 @@ window.onload = function(){
 
   modalHeader.appendChild(closeSpan);
   modalHeader.appendChild(modHeading);
+    
 
   modalContent.appendChild(modalHeader);
 
