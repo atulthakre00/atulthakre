@@ -72,7 +72,7 @@ window.onload = function(){
   t = "It is application of Circular Queue to create Traffic Signal Simulation. It was built using the knowledge of Data Structures and Algorithms particularly Circular Queue, Python tkinter, photoshop graphics. It was a well built GUI which consisted of 4 signals with usual red , green , yellow signals. The internal working was using insertion , deletion operations on circular queue.";
   moduleContent['id'].push("qimp");
   moduleContent['title'].push("Queue Implementation");
-  moduleContent['imageLocn'].push("docs/c10.jpg");
+  moduleContent['imageLocn'].push("docs/qimp.png");
   moduleContent['content'].push(t);
 
   t = "Given Regular Expression as input the program converts it into NFA (Non Deterministic Finite Automata) with Epsilon , NFA without Epsilon and DFA (Deterministic Finite Automata). It is a Web App created using HTML, CSS and Javascript. Knowledge of data structures and algorithms was used for internal implementation. Graphs and Graph Traversal Algorithm BFS (Bread First Search) are used";
@@ -82,7 +82,7 @@ window.onload = function(){
   moduleContent['content'].push(t);
 
 
-  //CODING PLATFORMS
+/*  //CODING PLATFORMS
   t = "";
   moduleContent['id'].push("cfR");
   moduleContent['title'].push("CodeForces Rating");
@@ -99,9 +99,9 @@ window.onload = function(){
   moduleContent['id'].push("hrR");
   moduleContent['title'].push("HackerRank Rating");
   moduleContent['imageLocn'].push("docs/hackerRank.png");
-  moduleContent['content'].push(t);
+  moduleContent['content'].push(t);*/
   
-  console.log(moduleContent);
+  //console.log(moduleContent);
 
   myModal = document.createElement("div");
   myModal.setAttribute("id","myModal");
