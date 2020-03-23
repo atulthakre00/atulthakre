@@ -58,7 +58,7 @@ window.onload = function(){
   t = "Pursuing Programming in C++ course provided by IIT Kharagpur";
   moduleContent['id'].push("picppNPTEL");
   moduleContent['title'].push("Programming In C++");
-  moduleContent['imageLocn'].push("docs/2.jpg");
+  moduleContent['imageLocn'].push("docs/"); // image to be uploaded
   moduleContent['content'].push(t);
 
   t = "Successfully Completed Machine Learning Using Python course By IBM on Coursera spanning for about 6 weeks. Regular Quizzes and Programming Machine Learning Assignments were part of it. Final project for creating Best Classifier for data was part of Exam.";
@@ -78,7 +78,7 @@ window.onload = function(){
   t = "Given Regular Expression as input the program converts it into NFA (Non Deterministic Finite Automata) with Epsilon , NFA without Epsilon and DFA (Deterministic Finite Automata). It is a Web App created using HTML, CSS and Javascript. Knowledge of data structures and algorithms was used for internal implementation. Graphs and Graph Traversal Algorithm BFS (Bread First Search) are used";
   moduleContent['id'].push("regFAC");
   moduleContent['title'].push("Regex To Finite Automata Converter");
-  moduleContent['imageLocn'].push("docs/c10.jpg");
+  moduleContent['imageLocn'].push("docs/"); // image to be uploaded
   moduleContent['content'].push(t);
 
 
@@ -100,8 +100,6 @@ window.onload = function(){
   moduleContent['title'].push("HackerRank Rating");
   moduleContent['imageLocn'].push("docs/hackerRank.png");
   moduleContent['content'].push(t);*/
-  
-  //console.log(moduleContent);
 
   myModal = document.createElement("div");
   myModal.setAttribute("id","myModal");
