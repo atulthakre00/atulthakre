@@ -69,13 +69,13 @@ window.onload = function(){
 
 
   //PROJECTS
-  t = "It is application of Circular Queue to create Traffic Signal Simulation. It was built using the knowledge of Data Structures and Algorithms particularly Circular Queue, Python tkinter, photoshop graphics. It was a well built GUI which consisted of 4 signals with usual red , green , yellow signals. The internal working was using insertion , deletion operations on circular queue.";
+  t = "It is application of Circular Queue to create Traffic Signal Simulation. It was built using the knowledge of Data Structures and Algorithms particularly Circular Queue, Python tkinter, photoshop graphics. It was a well built GUI which consisted of 4 signals with usual red , green , yellow signals. The internal working was using insertion , deletion operations on circular queue.<br/><br/><a href='https://github.com/atulthakre00/traffic-light-simulation-using-circular-queue' target='_blank'>Repository : github.com/atulthakre00/traffic-light-simulation-using-circular-queue</a>";
   moduleContent['id'].push("qimp");
   moduleContent['title'].push("Queue Implementation");
   moduleContent['imageLocn'].push("docs/qimp.png");
   moduleContent['content'].push(t);
 
-  t = "Given Regular Expression as input the program converts it into NFA (Non Deterministic Finite Automata) with Epsilon , NFA without Epsilon and DFA (Deterministic Finite Automata). It is a Web App created using HTML, CSS and Javascript. Knowledge of data structures and algorithms was used for internal implementation. Graphs and Graph Traversal Algorithm BFS (Bread First Search) are used";
+  t = "Given Regular Expression as input the program converts it into NFA (Non Deterministic Finite Automata) with Epsilon , NFA without Epsilon and DFA (Deterministic Finite Automata). It is a Web App created using HTML, CSS and Javascript. Knowledge of data structures and algorithms was used for internal implementation. Graphs and Graph Traversal Algorithm BFS (Bread First Search) are used.<br/><br/><a href='https://github.com/atulthakre00/regular-expression-to-finite-automata-converter' target='_blank'>Repository : github.com/atulthakre00/regular-expression-to-finite-automata-converter</a>";
   moduleContent['id'].push("regFAC");
   moduleContent['title'].push("Regex To Finite Automata Converter");
   moduleContent['imageLocn'].push("docs/"); // image to be uploaded
@@ -88,13 +88,11 @@ window.onload = function(){
   moduleContent['title'].push("CodeForces Rating");
   moduleContent['imageLocn'].push("docs/c10.jpg");
   moduleContent['content'].push(t);
-
   t = "";
   moduleContent['id'].push("ccR");
   moduleContent['title'].push("Codechef Rating");
   moduleContent['imageLocn'].push("docs/codechefRanking.png");
   moduleContent['content'].push(t);
-
   t = "";
   moduleContent['id'].push("hrR");
   moduleContent['title'].push("HackerRank Rating");
