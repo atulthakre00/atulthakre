@@ -78,7 +78,7 @@ window.onload = function(){
   t = "Given Regular Expression as input the program converts it into NFA (Non Deterministic Finite Automata) with Epsilon , NFA without Epsilon and DFA (Deterministic Finite Automata). It is a Web App created using HTML, CSS and Javascript. Knowledge of data structures and algorithms was used for internal implementation. Graphs and Graph Traversal Algorithm BFS (Bread First Search) are used.<br/><br/><a href='https://github.com/atulthakre00/regular-expression-to-finite-automata-converter' target='_blank'>Repository : github.com/atulthakre00/regular-expression-to-finite-automata-converter</a>";
   moduleContent['id'].push("regFAC");
   moduleContent['title'].push("Regex To Finite Automata Converter");
-  moduleContent['imageLocn'].push("docs/"); // image to be uploaded
+  moduleContent['imageLocn'].push("docs/regExProject.png"); // image to be uploaded
   moduleContent['content'].push(t);
 
 
